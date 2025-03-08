@@ -1,11 +1,13 @@
-using Android.Widget;
+//using Android.Widget;
 
 namespace NotesApp;
 
 public partial class PrincipalPage : ContentPage
 {
 
-    string fileNmae = Path.Combine(FileSystem.AppDataDirectory, "config.DAT");
+    string fileName = Path.Combine(FileSystem.AppDataDirectory, "config.DAT");
+
+    string TextoEditor = Path.Combine(FileSystem.AppDataDirectory, "");
     
     public PrincipalPage()
 	{
@@ -15,7 +17,7 @@ public partial class PrincipalPage : ContentPage
     private void SalvarBotao_Clicked(object sender, EventArgs e)
     {
         File.WriteAllText(fileName, TextoEditor.Text);
-        DisplayAlert("OK", "Arquivo Salvo", "VAleu!");
+        DisplayAlert("OK", "Arquivo Salvo", "VAleu!"); 
     
     }
 
