@@ -7,7 +7,7 @@ public partial class PrincipalPage : ContentPage
 
     string fileName = Path.Combine(FileSystem.AppDataDirectory, "config.DAT");
 
-    string TextoEditor = Path.Combine(FileSystem.AppDataDirectory, "");
+    
     
     public PrincipalPage()
 	{
