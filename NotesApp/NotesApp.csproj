@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Update="AboutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
 	  <None Update="PrincipalPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </None>

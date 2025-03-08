@@ -20,6 +20,12 @@
             ContentTemplate="{DataTemplate local:PrincipalPage}"
             Route="PrincipalPage" />
 
+        <ShellContent
+            Title="Sobre o aplicativo"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Route="AboutPage"
+         </ShellContent>
+        
     </TabBar>
 
 </Shell>
